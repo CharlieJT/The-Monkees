@@ -44,6 +44,14 @@ html {
     justify-content: center;
 }
 
+.music-container {
+    padding: 80px 20px;
+}
+
+.album-container {
+    margin-bottom: 60px;
+}
+
 /* ----------------------- Background Colors */
 
 .bg-color-navbar {
@@ -74,6 +82,10 @@ html {
     background-color: #c9e3f9;
 }
 
+.bg-color-music-container {
+    background-color: #ece8da;
+}
+
 /* ----------------------- Block Dividers */
 
 .block-divider--video {
@@ -94,6 +106,26 @@ html {
     margin: 5px auto;
     margin-bottom: 20px;
     background-color: #615e37;
+}
+
+.block-divider--music-header {
+    height: 3px;
+    border: 0;
+    width: 45px;
+    padding: 0;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    background-color: #615e37;
+}
+
+.music-block-divider {
+    height: 2px;
+    border: 0;
+    width: 80%;
+    padding: 0;
+    margin: 5px auto;
+    margin-bottom: 20px;
+    background-color: #a9a69c;
 }
 
 /* ----------------------- Navbar */
@@ -123,6 +155,10 @@ html {
 .navbar-default .navbar-toggle .icon-bar {
     background-color: #86befe;
     height: 3px;
+}
+
+ul .active {
+    font-size: 1.3em;
 }
 
 .navbar-toggle {
@@ -233,7 +269,7 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(59, 152, 255, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
 }
 
 /* ----------------------- Video */
@@ -339,7 +375,9 @@ html {
     -webkit-transition: all 0.2s ease-in;
 }
 
-.tickets-btn-see-more:hover {
+.tickets-btn-see-more:hover,
+.tickets-btn-see-more:focus,
+.tickets-btn-see-more:active {
     color: #fff682;
     background-color: #333333;
     border-color: #adadad;
@@ -379,6 +417,33 @@ html {
     border-color: #491952;
 }
 
+/* ----------------------- Music */
+
+.music-image {
+    width: 85%;
+    max-width: 700px;
+    margin-bottom: 40px;
+}
+
+.music-heading h2 {
+    color: #44423b;
+}
+
+.album-background {
+    margin-top: 40px;
+}
+
+.album-image {
+    width: 100%;
+    max-width: 300px;
+}
+
+.album-heading h4 {
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
 /* ----------------------- Footer */
 
 .footer-btm {
@@ -408,5 +473,11 @@ html {
     }
     .ticket-background-last {
         margin: 0 40px 15px;
+    }
+    .music-heading h2 {
+        font-size: 0.9em;
+    }
+    .album-image {
+        width: 60%;
     }
 }
