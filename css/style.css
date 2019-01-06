@@ -18,6 +18,16 @@ html {
     margin: 0;
     padding: 6px 5%;
     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.2);
+}
+
+.footer-container {
+    box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
 }
 
 .main-image-container {
@@ -50,6 +60,10 @@ html {
 
 .album-container {
     margin-bottom: 60px;
+}
+
+.audio-container {
+    margin: 40px 0;
 }
 
 /* ----------------------- Background Colors */
@@ -146,6 +160,8 @@ html {
 
 .navbar-default .navbar-brand {
     color: #86befe;
+    word-spacing: 0.2em;
+    letter-spacing: 0.1em;
 }
 
 .navbar-default .navbar-brand:hover {
@@ -239,14 +255,17 @@ ul .active {
     margin: 2px;
     border-radius: 50%;
     background-color: #32465a;
-    transition: background-color 0.3s ease-in-out;
-    -o-transition: background-color 0.3s ease-in-out;
-    -moz-transition: background-color 0.3s ease-in-out;
-    -webkit-transition: background-color 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
 }
 
 .social-links-footer>li:hover {
     background-color: #5d81a5;
+    padding: 11px;
+    height: 45px;
+    width: 45px;
 }
 
 /* ----------------------- Image */
@@ -440,8 +459,32 @@ ul .active {
 
 .album-heading h4 {
     font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
     text-align: center;
     margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.music-heading h3 {
+    margin-top: 60px;
+}
+
+.audio-image {
+    width: 80%;
+    max-width: 200px;
+}
+
+.audios {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 20px;
+}
+
+.audio-background h5 {
+    margin-top: 5px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: 600;
+    margin-bottom: 50px;
 }
 
 /* ----------------------- Footer */
@@ -451,7 +494,6 @@ ul .active {
     font-size: 16px;
     font-weight: 500;
     color: #f9f9f9;
-    box-shadow: 0px -4px 6px 0px rgba(0, 0, 0, 0.2);
 }
 
 .footer-btm p {
@@ -479,5 +521,8 @@ ul .active {
     }
     .album-image {
         width: 60%;
+    }
+    .music-heading h3 {
+        font-size: 0.9em;
     }
 }
