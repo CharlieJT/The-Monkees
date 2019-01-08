@@ -24,6 +24,7 @@ html {
 }
 
 .footer-container {
+    font-family: Arial, Helvetica, sans-serif;
     box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 0px -1px 8px 0px rgba(0, 0, 0, 0.2);
@@ -75,6 +76,10 @@ html {
     margin: 30px auto;
     padding: 20px;
     max-width: 800px;
+}
+
+.tickets-heading-container {
+    margin-bottom: 60px;
 }
 
 .table {
@@ -202,7 +207,7 @@ html {
 
 .navbar-default .navbar-brand {
     color: #86befe;
-    word-spacing: 0.2em;
+    word-spacing: 0.1em;
     letter-spacing: 0.1em;
 }
 
@@ -272,7 +277,7 @@ ul .active {
 .social-links>li {
     height: 30px;
     width: 30px;
-    padding: 3px;
+    padding: 4px;
     margin: 2px;
     border-radius: 50%;
     background-color: #d2d1d1;
@@ -293,7 +298,7 @@ ul .active {
 .social-links-footer>li {
     height: 40px;
     width: 40px;
-    padding: 8px;
+    padding: 6px;
     margin: 2px;
     border-radius: 50%;
     background-color: #32465a;
@@ -305,7 +310,7 @@ ul .active {
 
 .social-links-footer>li:hover {
     background-color: #5d81a5;
-    padding: 11px;
+    padding: 8px;
     height: 45px;
     width: 45px;
 }
@@ -360,16 +365,20 @@ ul .active {
     color: #491952;
 }
 
-.main-music-btn {
+.main-music-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 95px;
     height: 35px;
-    margin-top: 5px;
+    margin: auto;
+    text-decoration: none;
     font-family: 'Helvetica', sans-serif;
     font-size: small;
-    padding: 0;
+    font-weight: 500;
     text-transform: uppercase;
     border: 2px solid #491952;
-    border-radius: 8px;
+    border-radius: 3px;
     color: #491952;
     background-color: #f9f9f9;
     transition: all 0.2s ease-in;
@@ -378,7 +387,7 @@ ul .active {
     -webkit-transition: all 0.2s ease-in;
 }
 
-.main-music-btn:hover {
+.main-music-btn a:hover {
     color: #f9f9f9;
     background-color: #491952;
     border-color: #491952;
@@ -449,29 +458,34 @@ ul .active {
     border-color: #4a4a4f;
 }
 
-.tickets-btn-see-more {
+.tickets-btn-see-more a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 80px;
     height: 30px;
-    margin-top: 5px;
+    margin: auto;
+    text-decoration: none;
     font-family: 'Helvetica', sans-serif;
     font-size: 12px;
     font-weight: 700;
+    text-transform: uppercase;
     border: 1px solid #4a4a4f;
+    border-radius: 4px;
     color: #4a4a4f;
     background-color: #fff682;
-    border-radius: 7px;
     transition: all 0.2s ease-in;
     -o-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
     -webkit-transition: all 0.2s ease-in;
 }
 
-.tickets-btn-see-more:hover,
-.tickets-btn-see-more:focus,
-.tickets-btn-see-more:active {
+.tickets-btn-see-more a:hover,
+.tickets-btn-see-more a:focus,
+.tickets-btn-see-more a:active {
     color: #fff682;
     background-color: #333333;
-    border-color: #adadad;
+    border-color: #333333;
 }
 
 /* ----------------------- Booking */
@@ -487,13 +501,24 @@ ul .active {
 }
 
 .booking-btn {
+    padding: 0;
+    border: none;
+}
+
+.booking-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 200px;
     height: 50px;
-    margin-top: 5px;
+    margin: auto;
+    text-decoration: none;
     font-family: 'Helvetica', sans-serif;
     font-size: large;
+    font-weight: 400;
     text-transform: uppercase;
     border: 2px solid #491952;
+    border-radius: 3px;
     color: #491952;
     background-color: #f9f9f9;
     transition: all 0.2s ease-in;
@@ -502,7 +527,7 @@ ul .active {
     -webkit-transition: all 0.2s ease-in;
 }
 
-.booking-btn:hover {
+.booking-btn a:hover {
     color: #f9f9f9;
     background-color: #491952;
     border-color: #491952;
@@ -662,6 +687,49 @@ td {
     border: 1px solid #ddd;
 }
 
+/* ----------------------- Tickets Page */
+
+.tickets-heading h4 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+}
+
+.ticket-page-background {
+    height: 150px;
+    margin: 0 40px;
+    padding: 40px 0px;
+    border-top: 2px #a9a69a solid;
+}
+
+.ticket-page-background-last {
+    height: 150px;
+    margin: 0 40px 20px;
+    padding: 40px 0px;
+    border-top: 2px #a9a69a solid;
+    border-bottom: 2px #a9a69a solid;
+}
+
+.ticket-page-background-birm {
+    height: 150px;
+    margin: 0 40px;
+    padding: 40px 0px;
+    border-top: 2px #a9a69a solid;
+}
+
+.ticket-page-background-man {
+    height: 150px;
+    margin: 0 40px;
+    padding: 40px 0px;
+    border-top: 2px #a9a69a solid;
+}
+
+.ticket-page-background-bel {
+    height: 150px;
+    margin: 0 40px;
+    padding: 40px 0px;
+    border-top: 2px #a9a69a solid;
+}
+
 
 /* ----------------------- Footer */
 
@@ -679,14 +747,9 @@ td {
 /* ----------------------- Media Queries */
 
 @media (max-width: 767px) {
-    .bg-color-ticket-background {
-        height: 200px;
-        margin: 40px;
-        padding: 10px 0px;
-    }
     .ticket-background {
         height: 200px;
-        margin: 40px 40px 0;
+        margin: 0px 40px;
         padding: 10px 0px;
     }
     .ticket-background-last {
@@ -707,12 +770,88 @@ td {
     .band-container {
         margin: 40px 0;
     }
+    .bg-color-ticket-background {
+        height: 200px;
+        margin: 40px;
+        padding: 10px 0px;
+    }
+    .ticket-page-background {
+        height: 200px;
+        margin: 40px 40px 0;
+        padding: 10px 0px;
+    }
+    .tickets-btn-see-more {
+        margin-top: 20px;
+    }
+    .ticket-page-background-last {
+        margin: 0 40px 15px;
+    }
+    .tickets-heading h4 {
+        font-size: 1em;
+        margin-bottom: 10px;
+    }
 }
 
-@media (max-width:350px) {
+@media (max-width: 767px) {
+    .bg-color-ticket-background {
+        height: 200px;
+        margin: 0px 40px;
+        padding: 10px 0px;
+    }
+    .bg-color-ticket-page-background {
+        height: 200px;
+        margin: 0px 40px;
+        padding: 10px;
+    }
+    .ticket-page-background {
+        height: 200px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+    .ticket-page-background-birm {
+        height: 200px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+    .ticket-page-background-man {
+        height: 200px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+    .ticket-page-background-bel {
+        height: 200px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width: 369px) {
+    .ticket-page-background-birm {
+        height: 200px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+    .ticket-page-background-man {
+        height: 200px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+    .ticket-page-background-bel {
+        height: 240px;
+        margin: 0 40px;
+        padding: 10px 0px;
+    }
+}
+
+@media (max-width:369px) {
     .navbar-default .navbar-brand {
         color: #86befe;
         word-spacing: 0;
         letter-spacing: 0;
+    }
+    .bg-color-ticket-page-background {
+        height: 200px;
+        margin: -40px 40px;
+        padding: 10px;
     }
 }
