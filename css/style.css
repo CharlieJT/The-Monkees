@@ -67,7 +67,18 @@ html {
 }
 
 .band-container {
-    margin: 40px;
+    margin: 0 40px 40px;
+}
+
+.form-container {
+    font-family: 'Oswald', sans-serif;
+    margin: 30px auto;
+    padding: 20px;
+    max-width: 800px;
+}
+
+.table {
+    font-family: 'Oswald';
 }
 
 /* ----------------------- Special Padding/Margins/Colors */
@@ -96,8 +107,6 @@ html {
     font-weight: 400;
     margin-bottom: 40px;
 }
-
-
 
 /* ----------------------- Background Colors */
 
@@ -567,6 +576,92 @@ ul .active {
     margin: 0 auto 40px;
 }
 
+/* ----------------------- Book Page */
+
+.book-heading h4 {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.form-select-title {
+    font-size: 0.8em;
+}
+
+.form-group {
+    margin-bottom: 30px;
+}
+
+.help-block-text {
+    font-size: 0.8em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.form-select {
+    width: 80%;
+    max-width: 300px;
+    margin: auto
+}
+
+.form-group label {
+    display: flex;
+    justify-content: center;
+}
+
+.form-selection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.book-btn {
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+    font-family: 'Helvetica', sans-serif;
+    font-size: small;
+    padding: 0;
+    text-transform: uppercase;
+    border: 2px solid #42403b;
+    border-radius: 8px;
+    color: #42403b;
+    background-color: #f9f9f9;
+    transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -webkit-transition: all 0.2s ease-in;
+}
+
+.book-btn:hover {
+    color: #f9f9f9;
+    background-color: #42403b;
+    border-color: #42403b;
+}
+
+.calender-heading p {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+}
+
+th {
+    text-align: center;
+}
+
+td {
+    text-align: center;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border: 1px solid #ddd;
+}
+
 
 /* ----------------------- Footer */
 
@@ -611,5 +706,13 @@ ul .active {
     }
     .band-container {
         margin: 40px 0;
+    }
+}
+
+@media (max-width:350px) {
+    .navbar-default .navbar-brand {
+        color: #86befe;
+        word-spacing: 0;
+        letter-spacing: 0;
     }
 }
