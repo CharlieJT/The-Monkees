@@ -625,7 +625,7 @@ ul .active {
 .form-select {
     width: 80%;
     max-width: 300px;
-    margin: auto
+    margin: auto;
 }
 
 .form-group label {
