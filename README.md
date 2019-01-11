@@ -234,7 +234,7 @@ JQuery is added to the site to assist the implementation of JavaScript and Boots
  * MacBook Pro
  * iPad
  * iPhone 5, 5 SE, 6, 7, 8
- * Samsung
+ * Samsung S5
  
 
  ### Issues Encountered With Responsiveness
@@ -257,3 +257,74 @@ JQuery is added to the site to assist the implementation of JavaScript and Boots
  * #### Dates field in the form
    After running my code through the 'Markup Validation Service', it recommended using 'Polyfill' to ensure the dates field
    is compatible with older browsers. I will learn more about 'Polyfill' at a later date.
+
+ ## Deployment
+ 
+ My deployed version of the website can be viewed on GitHub, the link is at the top of this document of the deployed version.
+ 
+ 
+ ## Credits
+ 
+ ### Content
+ 
+ * www.wikipedia.org was used to help with finding information on the Monkees and Band Members.
+ * www.jasonmraz.com was used to help with the idea of the tickets section and button layout.
+ 
+
+ ### Media
+ 
+ * #### Project Assets
+   Images from Code Institute's GitHub repository 'project-assets' has been cloned into my local repository to use their
+   images, audio tracks and a music video:
+  
+   ##### Audio
+   * Clarksville.mp3
+   * DaydreamBeliever.mp3
+   * ImABeliever.mp3
+   * SteppingStone.mp3
+ 
+   ##### Images
+   * album.jpg
+   * album2.jpg
+   * band.jpg
+   * cover.jpg
+   * cover1.jpg
+   * cover2.jpg
+   * cover3.jpg
+   * dj.jpg
+   * md.jpg
+   * mn.jpg
+   * monkees.jpg
+   * pt.jpg
+   
+   ##### Video
+   * TheMonkees.mp4
+   
+
+ * #### Assets
+   I also found other images of Google to use in addition to the project-assets. The images are used with permission
+   from the image holders.
+
+   ##### My Images
+   * book-image.jpeg
+   * monkees-about.jpg
+   * monkees-favicon.png
+   * monkees-tickets.jpg
+   * the-monkees-music.jpg
+   * the-monkees-performance-2013.jpg
+   
+
+ ### Acknowledgements
+ 
+ * #### Mentor
+   ##### James Timmins
+   For help with the step by step process of how to go about my project.
+
+ * #### Code Institute
+   ##### Bootstrapping Your Next Big Idea
+   This section of the module helped with knowing how to section out my code, knowing what technologies to include in
+   my project and how to make the most out of DevTools.
+
+ * #### Slack
+   ##### ShaneMuir_lead, Eventyret_Mentor, abonello_lead
+   For helping me solve issues I encountered throughout the project.
