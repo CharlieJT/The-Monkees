@@ -212,9 +212,48 @@ JQuery is added to the site to assist the implementation of JavaScript and Boots
  Font Awesome is used to add social links to the website. These icons are Facebook, Instagram, Twitter,
  YouTube and Spotify.
  
- ### Git & Git-Hub - https://github.com/
+ 
+ ### Git & GitHub - https://github.com/
  
  Git is used as a command line tool to push my work from my local repository into a remote repository 'Github',
  Github is used to allow other users to see the deployed version of my website.
  
  
+ ## Testing
+ 
+ ### Responsive Mobile-First Design
+ 
+ The website has been tested on Mobile, Tablet & Desktop with each feature and section being tested numerous times
+ to ensure that the responsiveness has no errors. I tested on all devices in Chrome DevTools and I tested each feature
+ through each breaking point. I added on 'Responsive Web Design Tester' to my Chrome and tested my website with many
+ different displays varying from portrait to landscape.
+ 
+ Some of my friends volunteered to have a look through the website on their devices. The devices that the website has
+ been tested on are as follows:
+ * Desktop PC
+ * MacBook Pro
+ * iPad
+ * iPhone 5, 5 SE, 6, 7, 8
+ * Samsung
+ 
+
+ ### Issues Encountered With Responsiveness
+ 
+ * #### Navbar Links dropping to next line
+   From '768px - 773px', there was a break where the Navbar links were moving to the second line. I fixed this
+   by shortening down the word spacing on the navbar logo.
+ 
+ * #### Album images jumping
+   Throughout medium and small display, images were jumping onto the next line at certain breaking points. With changing
+   the margins and font sizes, I was able to overcome the issue. 
+
+ * #### Tickets not sitting correctly
+   It was difficult to ensure that all tickets in the tickets section were responsive, I had an issue with the text and button
+   sitting inside of the border. I added media queries to manipulate paddings and margins and everything eventually worked ok.
+ 
+
+ ### Issues still to be fixed
+ 
+ * #### Dates field in the form
+   After running my code through the 'Markup Validation Service', it recommended using 'Polyfill' to ensure the dates field
+   is compatible with older browsers. I will learn more about 'Polyfill' at a later date.
