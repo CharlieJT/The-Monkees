@@ -28,7 +28,49 @@ The primary focus of the website is to showcase the band's top-rated music to al
  The site has been produced to ensure the user gets an easy, informative and enjoyable experience
  about the band and everything that the band has to offer.
  
- #### Wireframes
+ #### Wireframes - Mobile
+ 
+ Home
+ 
+ <img src="assets/wireframes/dropdown-mobile.png" width=120> -> <img src="assets/wireframes/1a-mobile.png" width=120> -> <img src="assets/wireframes/1b-mobile.png" width=120>
+ 
+ About
+ 
+ <img src="assets/wireframes/2a-mobile.png" width=120>
+ 
+ Music
+ 
+ <img src="assets/wireframes/3a-mobile.png" width=120>
+ 
+ Book
+ 
+ <img src="assets/wireframes/4a-mobile.png" width=120>
+ 
+ Tickets
+ 
+ <img src="assets/wireframes/5a-mobile.png" width=120>
+ 
+ #### Wireframes - Desktop
+ 
+ Home
+ 
+ <img src="assets/wireframes/1a-desktop.png" width=250> -> <img src="assets/wireframes/1b-desktop.png" width=250>
+ 
+ About
+ 
+ <img src="assets/wireframes/2a-desktop.png" width=250>
+ 
+ Music
+ 
+ <img src="assets/wireframes/3a-desktop.png" width=250>
+ 
+ Book
+ 
+ <img src="assets/wireframes/4a-desktop.png" width=250>
+ 
+ Tickets
+ 
+ <img src="assets/wireframes/5a-desktop.png" width=250>
  
  ## Features
  
