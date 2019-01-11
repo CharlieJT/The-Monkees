@@ -152,5 +152,3 @@ The primary focus of the website is to showcase the band's top-rated music to al
  #### Feature 5 - News Section
  
  News section to inform user of any updates on the band.
-=======
->>>>>>> ba928e08bd33a8694ebb856bcabd8123cb775dba
