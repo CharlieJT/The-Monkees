@@ -260,7 +260,7 @@ JQuery is added to the site to assist the implementation of JavaScript and Boots
 
  ## Deployment
  
- My deployed version of the website can be viewed on GitHub, the link is at the top of this document of the deployed version.
+ My deployed version of the website can be viewed on GitHub, the link is at the top of this document.
  
  
  ## Credits
