@@ -28,7 +28,49 @@ The primary focus of the website is to showcase the band's top-rated music to al
  The site has been produced to ensure the user gets an easy, informative and enjoyable experience
  about the band and everything that the band has to offer.
  
- #### Wireframes
+ #### Wireframes - Mobile
+ 
+ Home
+ 
+ <img src="assets/wireframes/dropdown-mobile.png" width=120> -> <img src="assets/wireframes/1a-mobile.png" width=120> -> <img src="assets/wireframes/1b-mobile.png" width=120>
+ 
+ About
+ 
+ <img src="assets/wireframes/2a-mobile.png" width=120>
+ 
+ Music
+ 
+ <img src="assets/wireframes/3a-mobile.png" width=120>
+ 
+ Book
+ 
+ <img src="assets/wireframes/4a-mobile.png" width=120>
+ 
+ Tickets
+ 
+ <img src="assets/wireframes/5a-mobile.png" width=120>
+ 
+ #### Wireframes - Desktop
+ 
+ Home
+ 
+ <img src="assets/wireframes/1a-desktop.png" width=250> -> <img src="assets/wireframes/1b-desktop.png" width=250>
+ 
+ About
+ 
+ <img src="assets/wireframes/2a-desktop.png" width=250>
+ 
+ Music
+ 
+ <img src="assets/wireframes/3a-desktop.png" width=250>
+ 
+ Book
+ 
+ <img src="assets/wireframes/4a-desktop.png" width=250>
+ 
+ Tickets
+ 
+ <img src="assets/wireframes/5a-desktop.png" width=250>
  
  ## Features
  
@@ -85,3 +127,27 @@ The primary focus of the website is to showcase the band's top-rated music to al
  The 'Book' page has a main image of a crowd at a concert, a breif description of ticket information and a display of 5
  repsonsive ticket seletions with a date, city, venue and a clickable button depending on ticket availability. A modal has
  been added to each selection with available tickets providing you with inputs email, amount of tickets and a 'submit' button.
+
+
+ ## Features Left to Implement
+
+ #### Feature 1 - Additional Tour Dates
+ 
+ A listing of additional tour dates in later months.
+ 
+ #### Feature 2 - Additional Music
+ 
+ A listing of additional albums, tracks and video as they become available.
+ 
+ #### Feature 3 - Registration Button
+ 
+ Implimentation of a registration button so users can get notification on updates on the website such as ticket dates, booking information
+ and additional music.
+ 
+ #### Feature 4 - Booking form link
+ 
+ Booking form to be linked to an external server.
+ 
+ #### Feature 5 - News Section
+ 
+ News section to inform user of any updates on the band.
