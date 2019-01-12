@@ -203,7 +203,7 @@ JQuery is added to the site to assist the implementation of JavaScript and Boots
  
  Google fonts are used to create various different fonts throughout the website. 
  * 'Luckiest Guy': Used for headings.
- * 'Oswald': Used for the form and page paragraphs
+ * 'Oswald': Used for the form and page paragraphs.
  * 'Helvetica': Used for buttons.
  
 
